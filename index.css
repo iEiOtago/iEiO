@@ -45,7 +45,10 @@ body {
   margin-top: 120px;
   width: 100%;
   height: 100vh;
-  background-image: url("pictures/banner.jpg");
+  background-position: center;
+  background-image: url("https://c1.staticflickr.com/9/8371/8512264358_ff41d08ccc_b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bannerPage {
