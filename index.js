@@ -5,22 +5,30 @@ import Router from 'sheet-router'
 
 import reducer from './reducer'
 import Home from './components'
-import Header from './components/page1'
-import Page from './components/page2'
+import Services from './components/services'
+import Contact from './components/contact'
+import FAQ from './components/FAQ'
 import FourOhFour from './components/404'
 
 const initialState = {
-  name: 'Brady Gillies',
-  route: '/',
-  routeHistory: []
-}
+    name: 'iEi Otago',
+    menu: [
+      { page:'Home', route:'/' },
+      { page:'Services', route:'/Services' },
+      { page:'Contact', route:'/Contact' },
+      { page:'FAQ', route:'/FAQ' }
+    ],
+    route: '/',
+    routeHistory: []
+  }
 
 const { getState, dispatch, subscribe } = createStore(reducer, initialState)
 
 const route = Router({ default: '/404' }, [
   ['/', (params) => Home],
-  ['/page1', (params) => Header],
-  ['/page2', (params) => Page],
+  ['/Services', (params) => Services],
+  ['/Contact', (params) => Contact],
+  ['/FAQ', (params) => FAQ],
   ['/404', (params) => FourOhFour]
 ])
 
