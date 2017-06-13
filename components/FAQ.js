@@ -1,6 +1,4 @@
 import React from 'react'
-import header from './header'
-import nav from './nav'
 import menu from './menu'
 
 export default ({state, dispatch}) =>
