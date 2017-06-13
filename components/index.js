@@ -7,7 +7,7 @@ export default ({state, dispatch}) => {
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h1>Independent Electrical Inspectors Otago</h1>
+        <h3>Independent Electrical Inspectors Otago</h3>
       </div>
       <button className="bannerButton" onClick={() => changePage('/Services')}>Explore Services</button>
       <div className="banner">
