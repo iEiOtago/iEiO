@@ -6,8 +6,9 @@ module.exports = (state, { type, payload }) => {
       return { ...newState, route: payload }
     case 'BACK_BUTTON':
       newState.route = newState.routeHistory.pop()
-      console.log(newState.route);
-      console.log(newState);
+      return newState
+    case 'SELECT_SERVICE':
+      newState.selectedService = payload
       return newState
     default:
       return newState
