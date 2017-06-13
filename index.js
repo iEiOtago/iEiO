@@ -8,19 +8,10 @@ import Home from './components'
 import Services from './components/services'
 import Contact from './components/contact'
 import FAQ from './components/FAQ'
+import Service from './components/service'
 import FourOhFour from './components/404'
 
-const initialState = {
-    name: 'iEi Otago',
-    menu: [
-      { page:'Home', route:'/' },
-      { page:'Services', route:'/Services' },
-      { page:'Contact', route:'/Contact' },
-      { page:'FAQ', route:'/FAQ' }
-    ],
-    route: '/',
-    routeHistory: []
-  }
+const initialState = require('./initialState')()
 
 const { getState, dispatch, subscribe } = createStore(reducer, initialState)
 
@@ -29,6 +20,7 @@ const route = Router({ default: '/404' }, [
   ['/Services', (params) => Services],
   ['/Contact', (params) => Contact],
   ['/FAQ', (params) => FAQ],
+  ['/Service', (params) => Service],
   ['/404', (params) => FourOhFour]
 ])
 
