@@ -2,10 +2,10 @@ module.exports = () => {
   return {
     name: "iEi Otago",
     menu: [
-      { page:"Home", route:"/" },
       { page:"Services", route:"/Services" },
-      { page:"Contact", route:"/Contact" },
-      { page:"FAQ", route:"/FAQ" }
+      { page:"About", route:"/About" },
+      { page:"FAQ", route:"/FAQ" },
+      { page:"Contact", route:"/Contact" }
     ],
     selectedService:{},
     services: [
