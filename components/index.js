@@ -6,6 +6,9 @@ export default ({state, dispatch}) => {
   return (
     <div>
       {menu(state, dispatch)}
+      <div className="bannerPage">
+        <h1>Independent Electrical Inspectors Otago</h1>
+      </div>
       <button className="bannerButton" onClick={() => changePage('/Services')}>Explore Services</button>
       <div className="banner">
       </div>
