@@ -7,7 +7,7 @@ export default ({state, dispatch}) => {
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h1>{route.slice(1)}</h1>
+        <h3>{route.slice(1)}</h3>
       </div>
       <div className="servicesContainer" >
       {createServices(services)}
@@ -22,6 +22,7 @@ export default ({state, dispatch}) => {
                   selectService(service)
                   changePage("/Service")
                 }} >
+                  <img src="https://c1.staticflickr.com/9/8371/8512264358_ff41d08ccc_b.jpg" />
                   <h3>{service.service}</h3>
                  </div>
         })}

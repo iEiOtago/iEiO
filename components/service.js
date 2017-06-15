@@ -12,7 +12,7 @@ export default ({state, dispatch}) => {
       </div>
       <div className="container">
       {createContent(content)}
-      <h3>How do I book {stepsHeading} {service}?</h3>
+      <h3>{stepsHeading}</h3>
       {createSteps(steps)}
       </div>
     </div>
