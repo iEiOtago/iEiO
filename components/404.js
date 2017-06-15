@@ -6,9 +6,11 @@ export default ({state, dispatch}) => {
   return (
     <div>
       {menu(state, dispatch)}
+      <div className="bannerPage">
+        <h3>404</h3>
+      </div>
       <div className="FourOhFour">
       {back(dispatch)}
-      <h1>404</h1>
       <p>We could not find the page you were looking for!</p>
       </div>
     </div>

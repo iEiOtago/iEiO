@@ -118,33 +118,21 @@ h2, h3 {
   z-index: 9;
 }
 a.active {
-  font-size: 40px;
+  font-size: 24px;
   background-color: #16901d;
   cursor: pointer;
 }
-.menu li:nth-child(1):hover ~ .slider,
-.menu li:nth-child(1):focus ~ .slider,
-.menu li:nth-child(1):active ~ .slider {
+.menu li:nth-child(1) {
   left: 0;
-  background-color: #000094;
 }
-.menu li:nth-child(2):hover ~ .slider,
-.menu li:nth-child(2):focus ~ .slider,
-.menu li:nth-child(2):active ~ .slider {
+.menu li:nth-child(2) {
   left: 25%;
-  background-color: #000094;
 }
-.menu li:nth-child(3):hover ~ .slider,
-.menu li:nth-child(3):focus ~ .slider,
-.menu li:nth-child(3):active ~ .slider {
+.menu li:nth-child(3) {
   left: 50%;
-  background-color: #000094;
 }
-.menu li:nth-child(4):hover ~ .slider,
-.menu li:nth-child(4):focus ~ .slider,
-.menu li:nth-child(4):active ~ .slider {
+.menu li:nth-child(4) {
   left: 75%;
-  background-color: #000094;
 }
 
 .serviceInfo {
@@ -166,6 +154,7 @@ a.active {
   position: relative;
   padding: 0;
   height: 39vh;
+  cursor: pointer;
   background-color: #000;
   /*border: solid 1px #fff;*/
 }
@@ -185,8 +174,14 @@ a.active {
   overflow: hidden;
 }
 
+.serviceItem:hover {
+  border: solid 1px #fff;
+  opacity: 0.9;
+}
+
 .FourOhFour {
   text-align: center;
+  margin: 50px;
 }
 
 .FourOhFour h1 {
