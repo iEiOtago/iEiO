@@ -147,16 +147,17 @@ a.active {
 }
 
 .services {
-  /*margin: 2%;*/
+  margin: 2%;
 }
 
 .serviceItem {
   position: relative;
+  overflow: hidden;
   padding: 0;
-  height: 39vh;
+  height: 250px;
   cursor: pointer;
   background-color: #000;
-  /*border: solid 1px #fff;*/
+  border: solid 5px #fff;
 }
 
 .serviceItem h3 {
@@ -168,10 +169,11 @@ a.active {
 }
 
 .serviceItem img {
-  height: 100%;
+  min-height: 250px;
+  height: auto;
   width: 100%;
+  vertical-align: middle;
   opacity: 0.5;
-  overflow: hidden;
 }
 
 .serviceItem:hover {
