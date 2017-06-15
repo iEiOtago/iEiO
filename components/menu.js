@@ -3,7 +3,7 @@ import React from 'react'
 export default (state, dispatch) => {
   return (
     <ul className="menu">
-      <li onClick={() => changePage("/")} ><a className="active" >iEiO</a></li>
+      <li onClick={() => changePage("/")} ><a className="active" >iEi Otago</a></li>
       {menu(state.menu, changePage)}
     </ul>
   )
