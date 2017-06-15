@@ -2,23 +2,19 @@ import React from 'react'
 import menu from './menu'
 
 export default ({state, dispatch}) => {
+  const {selectedService} = state
+  const {service, content, stepsHeading, steps} = selectedService
   return (
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h1>{state.selectedService.service}</h1>
+        <h3>{service}</h3>
       </div>
-      <p>{state.selectedService.blurb}</p>
-      <h2>Did you know?</h2>
-      <p>{state.selectedService.dyk}</p>
-      <h2>What an {state.selectedService.service} Involves</h2>
-      <p>{state.selectedService.involve}</p>
-      <h2>What is Important for {state.selectedService.service}</h2>
-      <p>{state.selectedService.important}</p>
-      <h2>Where do I get an {state.selectedService.service} done?</h2>
-      <p>{state.selectedService.done}</p>
-      <h2>How do I book an {state.selectedService.service}?</h2>
-      {createSteps(state.selectedService.book)}
+      <div className="container">
+      {createContent(content)}
+      <h3>How do I book {stepsHeading} {service}?</h3>
+      {createSteps(steps)}
+      </div>
     </div>
   )
   function createSteps(steps) {
@@ -28,6 +24,20 @@ export default ({state, dispatch}) => {
           return <li key={i}> {step} </li>
         })}
       </ol>
+    )
+  }
+  function createContent(content) {
+    return (
+      <div>
+        {content.map((item, i) => {
+          return (
+            <span key={i}>
+            <h3 className="serviceInfo"> {item.heading} </h3>
+            <p> {item.content} </p>
+            </span>
+          )
+        })}
+      </div>
     )
   }
 }

@@ -2,25 +2,28 @@ import React from 'react'
 import menu from './menu'
 
 export default ({state, dispatch}) => {
+  const {route, services} = state
   return (
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h1>{state.route.slice(1)}</h1>
+        <h1>{route.slice(1)}</h1>
       </div>
-      {createServices(state.services)}
+      <div className="servicesContainer" >
+      {createServices(services)}
+      </div>
     </div>
   )
   function createServices(services) {
     return (
-      <div>
+      <div className="services">
         {services.map((service, i)=> {
-          return <p key={i} onClick={() => {
+          return <div className="serviceItem col-md-4 col-sm-12" key={i} onClick={() => {
                   selectService(service)
                   changePage("/Service")
                 }} >
-                  {service.service}
-                 </p>
+                  <h3>{service.service}</h3>
+                 </div>
         })}
       </div>
     )
