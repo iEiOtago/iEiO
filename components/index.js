@@ -2,13 +2,14 @@ import React from 'react'
 import menu from './menu'
 
 export default ({state, dispatch}) => {
-  const {route, services} = state
+  const {route, routeHistory, services} = state
   return (
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h3>Independent Electrical Inspectors Otago</h3>
+        <h4>Independent Electrical Inspectors</h4>
       </div>
+      <div className="blockHeader"></div>
       <div className="servicesContainer" >
       {createServices(services)}
       </div>
@@ -18,7 +19,7 @@ export default ({state, dispatch}) => {
     return (
       <div className="services">
         {services.map((service, i)=> {
-          return <div className="serviceItem col-md-4 col-sm-12" key={i} onClick={() => {
+          return <div className="serviceItem" key={i} onClick={() => {
                   selectService(service)
                   changePage("/Service")
                 }} >

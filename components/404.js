@@ -7,10 +7,11 @@ export default ({state, dispatch}) => {
     <div>
       {menu(state, dispatch)}
       <div className="bannerPage">
-        <h3>404</h3>
+        {back(dispatch)}
+        <h4>404</h4>
       </div>
+      <div className="blockHeader"></div>
       <div className="FourOhFour">
-      {back(dispatch)}
       <p>We could not find the page you were looking for!</p>
       </div>
     </div>
