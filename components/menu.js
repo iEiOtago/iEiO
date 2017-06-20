@@ -4,7 +4,7 @@ export default (state, dispatch) => {
   return (
     <div>
     <ul className="menu">
-      <li onClick={() => changePage("/")} ><a className="active" ><img src="https://user-images.githubusercontent.com/20106637/27310095-056d057a-55ac-11e7-99c7-a6a05b733c62.png" /></a></li>
+      <li onClick={() => changePage("/")} ><a className="logo" ><img src="https://user-images.githubusercontent.com/20106637/27310095-056d057a-55ac-11e7-99c7-a6a05b733c62.png" /></a></li>
       {menu(state.menu, changePage)}
     </ul>
     <div className="blockMenu"></div>
