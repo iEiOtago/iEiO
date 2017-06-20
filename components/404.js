@@ -1,5 +1,6 @@
 import React from 'react'
 import menu from './menu'
+import footer from './footer'
 import back from './buttons/back'
 
 export default ({state, dispatch}) => {
@@ -14,6 +15,7 @@ export default ({state, dispatch}) => {
       <div className="FourOhFour">
       <p>We could not find the page you were looking for!</p>
       </div>
+      {footer()}
     </div>
   )
 }

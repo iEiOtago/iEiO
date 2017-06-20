@@ -1,5 +1,6 @@
 import React from 'react'
 import menu from './menu'
+import footer from './footer'
 import back from './buttons/back'
 
 export default ({state, dispatch}) => {
@@ -26,6 +27,7 @@ export default ({state, dispatch}) => {
         <img src={image} />
         </div>
       </div>
+      {footer()}
     </div>
   )
   function createSteps(steps) {

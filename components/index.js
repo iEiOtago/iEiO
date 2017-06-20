@@ -1,5 +1,6 @@
 import React from 'react'
 import menu from './menu'
+import footer from './footer'
 
 export default ({state, dispatch}) => {
   const {route, routeHistory, services} = state
@@ -13,6 +14,7 @@ export default ({state, dispatch}) => {
       <div className="servicesContainer" >
       {createServices(services)}
       </div>
+      {footer()}
     </div>
   )
   function createServices(services) {

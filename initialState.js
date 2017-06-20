@@ -16,7 +16,7 @@ module.exports = () => {
           {heading: "Did You Know?", content:"All electrical systems deteriorate with age and/or use so it is important that they are maintained regularly to ensure that the safety of people around the system are not at risk."},
           {heading: "What Does a Property Inspection Involve?", content:"An inspection will reveal potential hazards within the tested installation, check for earth and bonding (or the lack of it), as well as identify any defective work whilst checking all the fixed wiring. This includes testing RCDs to make sure they trip under fault conditions and checking fuse and circuit breaker ratings. Our report also lists non-compliant wiring or fittings."},
           {heading: "Why is a Property Inspection Important?", content:"When buying a property for yourself or an investment property it is important to know the condition of the electrical installation of your prospective purchase as unknown or unforeseen problems can soon consume a substantial portion of your budget."},
-          {heading: "Why is a Property inspection important?", content:"With an in depth knowledge of the regulations and standards appropriate to the age of the property iEi Otago will visit the property, carry out the inspection and discuss the findings."},
+          {heading: "Where do I get a Property Inspection Done?", content:"With an in depth knowledge of the regulations and standards appropriate to the age of the property iEi Otago will visit the property, carry out the inspection and discuss the findings."},
         ],
         stepsHeading: "How do I book a Property Inspection?",
         steps: [
@@ -59,9 +59,10 @@ module.exports = () => {
         ]
       },
       {
-        service:"Certificate of Verification",
-        image: "https://thumb9.shutterstock.com/display_pic_with_logo/4574812/581376208/stock-photo-high-voltage-post-high-voltage-tower-sky-background-581376208.jpg",
+        service:"Grid Connections",
+        image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
         content: [
+          {heading: "New Building?", content:"If you are building a new house or require a new power supply, you must seek approval before connecting to the local power network. Network approval is intended to ensure the following: The connection is made to the correct supply point, There is legal access to the network, Network capacity is sufficient, Fusing is available."},
           {heading: "Power Disconnected for 6 months or more?", content:"Where power is not used over long periods of time, people often have their electricity supply disconnected. It is important to note that if the power has been disconnected for longer than six months, your installation must (by law) be inspected before reconnection can occur. This applies to all installations including temporary supplies for builders, pumps, cowsheds, houses and cribs, regardless of age."},
           {heading: "Not Sure How Long your Power has been Disconnected?", content:"Call your power provider with the address. They will be able to tell you exactly how long the electricity has been turned off and advise whether an inspection is required."}
 
@@ -72,20 +73,21 @@ module.exports = () => {
           "Call your power provider to agree to future power accounts, and request the reconnection. Advise your power provider that the COV has been arranged and a copy left on site."
         ]
       },
-      {
-        service:"New Building Connection",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
-        content: [
-          {heading: "", content:"If you are building a new house or require a new power supply, you must seek approval before connecting to the local power network. Network approval is intended to ensure the following: The connection is made to the correct supply point, There is legal access to the network, Network capacity is sufficient, Fusing is available"}
-        ],
-        stepsHeading: "How do I get a new or temporary Power Supply?",
-        steps: [
-          "You will need to complete a network application form (http://www.auroraenergy.co.nz/assets/Forms/AE-F008-Connection-Application-Web2.doc) to have a new installation connected to the Aurora network. This process provides you with an ICP number that is essential for Step 2.",
-          "Contact an Energy Retailer to set up an account.",
-          "Your Energy Retailer will authorise the connection of your new installation or temporary power supply. It is important to get your application in to your local network as early as possible in the building process. Don't wait until construction is complete before contacting them.",
-          "Have your electrician contact iEi Otago for the high-risk mains inspection. We can arrange the revenue meter installation to coincide with our inspection."
-        ]
-      },
+      // {
+      //   service:"New Connection",
+      //   image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
+      //   blurb: "",
+      //   content: [
+      //     {heading: "", content:""}
+      //   ],
+      //   stepsHeading: "How do I get a new or temporary Power Supply?",
+      //   steps: [
+      //     "You will need to complete a network application form (http://www.auroraenergy.co.nz/assets/Forms/AE-F008-Connection-Application-Web2.doc) to have a new installation connected to the Aurora network. This process provides you with an ICP number that is essential for Step 2.",
+      //     "Contact an Energy Retailer to set up an account.",
+      //     "Your Energy Retailer will authorise the connection of your new installation or temporary power supply. It is important to get your application in to your local network as early as possible in the building process. Don't wait until construction is complete before contacting them.",
+      //     "Have your electrician contact iEi Otago for the high-risk mains inspection. We can arrange the revenue meter installation to coincide with our inspection."
+      //   ]
+      // },
       {
         service:"Permanent Disconnection",
         image: "https://thumb1.shutterstock.com/display_pic_with_logo/789982/162319469/stock-photo-hydraulic-crusher-excavator-machine-at-site-demolition-162319469.jpg",
