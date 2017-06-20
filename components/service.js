@@ -6,6 +6,7 @@ import back from './buttons/back'
 export default ({state, dispatch}) => {
   const {selectedService} = state
   const {service, image, blurb, content, stepsHeading, steps} = selectedService
+  window.scrollTo(0, 0)
   return (
     <div>
       {menu(state, dispatch)}
