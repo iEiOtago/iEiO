@@ -11,8 +11,8 @@ module.exports = () => {
       {
         service:"Property Inspection",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/53073/53073,1196472714,1/stock-photo-exterior-of-a-typical-small-town-house-in-rural-new-zealand-7426006.jpg",
+        blurb: "There are many reasons why you could need an electrical test or inspection on your property or electrical items. It could be for insurance purposes, landlord's inspection, change of use, ownership or even just for your own peace of mind.",
         content: [
-          {heading: "", content:"There are many reasons why you could need an electrical test or inspection on your property or electrical items. It could be for insurance purposes, landlord's inspection, change of use, ownership or even just for your own peace of mind."},
           {heading: "Did You Know?", content:"All electrical systems deteriorate with age and/or use so it is important that they are maintained regularly to ensure that the safety of people around the system are not at risk."},
           {heading: "What Does a Property Inspection Involve?", content:"An inspection will reveal potential hazards within the tested installation, check for earth and bonding (or the lack of it), as well as identify any defective work whilst checking all the fixed wiring. This includes testing RCDs to make sure they trip under fault conditions and checking fuse and circuit breaker ratings. Our report also lists non-compliant wiring or fittings."},
           {heading: "Why is a Property Inspection Important?", content:"When buying a property for yourself or an investment property it is important to know the condition of the electrical installation of your prospective purchase as unknown or unforeseen problems can soon consume a substantial portion of your budget."},
@@ -29,8 +29,8 @@ module.exports = () => {
       {
         service:"Electrical Warrant of Fitness",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/648904/500827201/stock-photo-caravan-trailer-on-a-green-lawn-on-a-sunny-spring-day-500827201.jpg",
+        blurb: "iEi Otago can take the hassle out of your next Electrical Warrant of Fitness (EWOF) for your caravan, motorhome, mobile food van or boat. Our Inspectors can come to where the vehicle is located for your convenience.",
         content: [
-          {heading: "", content:"iEi Otago can take the hassle out of your next Electrical Warrant of Fitness (EWOF) for your caravan, motorhome, mobile food van or boat. Our Inspectors can come to where the vehicle is located for your convenience."},
           {heading: "Did You Know?", content:"It is a requirement under the Electricity Act 1992 that any connectable installation be certified before being connected to a power supply. For example, holiday park operators will require your caravan or motorhome to have a current EWOF before allowing you to connect on a powered site. Another example is, a local authority will require a current EWOF for a mobile food van before connecting into a public power point."},
           {heading: "Why is an EWOF Important?", content:"It is important your caravan, motorhome or boat is regularly checked to ensure your electrical installation is safe and fit for its intended use. Caravan, motorhome, mobile food van and boats are small confined spaces, often in damp crowded situations, thereby being of higher risk and hence requiring regular checks to ensure safety."},
           {heading: "Where do I get an EWOF Done?", content:"We can provide an EWOF for your caravan, motorhome or boat at your premise or a pre-arranged location. Any matters that require rectifying will be notified at the time of testing. If your caravan, motorhome, mobile food van or boat fails its EWOF the first time, there is a small charge for a retest."}
@@ -45,8 +45,8 @@ module.exports = () => {
       {
         service:"Explosive Area Inspection",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/3212969/579910117/stock-photo-gas-station-fuel-pump-579910117.jpg",
+        blurb: "iEi Otago carries out explosive area inspections to AS/NZS:60079 standards for commercial businesses who have explosive environments  associated with their work activities.",
         content: [
-          {heading: "", content:"iEi Otago carries out explosive area inspections to AS/NZS:60079 standards for commercial businesses who have explosive environments  associated with their work activities."},
           {heading: "Did You Know?", content:"Many business activities involve the use of airborne particles and inflammatory materials. These may ignite if an electrical fault occurred within the work area. These areas listed here require explosive area inspection: Fuel stations, Paint spraying and tinting booths &amp; mixing rooms, Dust environments, LPG stations &amp; storage facilities, Dangerous Goods stores, Printing areas, Woodworking dust areas, Bakeries, Silos, Industrial applications, DG Store certification/ verification"},
           {heading: "Why is an Explosive Area Inspection Important?", content:"It is important to check that all the electrical equipment is correctly operating and rated for the environment it is operating within. Another important aspect of the inspection is there are no potential voltage differences between conductive materials that can cause a spark."},
           {heading: "Where do I get an Explosive Area Inspection Done?", content:"With an in depth knowledge of the standards required iEi Otago will visit site and carry out the inspection and discuss the findings, working with you towards compliance."},
