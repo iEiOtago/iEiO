@@ -1,9 +1,11 @@
 import React from 'react'
 import menu from './menu'
 import footer from './footer'
+import scrollToTop from './utilities/scrollToTop'
 
 export default ({state, dispatch}) => {
   const {route, routeHistory, services} = state
+  scrollToTop()
   return (
     <div>
       {menu(state, dispatch)}
