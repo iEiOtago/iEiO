@@ -5,8 +5,9 @@ import Router from 'sheet-router'
 
 import reducer from './reducer'
 import Home from './components'
-import Contact from './components/contact'
+import About from './components/about'
 import FAQ from './components/FAQ'
+import Contact from './components/contact'
 import Service from './components/service'
 import FourOhFour from './components/404'
 
@@ -16,8 +17,9 @@ const { getState, dispatch, subscribe } = createStore(reducer, initialState)
 
 const route = Router({ default: '/404' }, [
   ['/', (params) => Home],
-  ['/Contact', (params) => Contact],
+  ['/About', (params) => About],
   ['/FAQ', (params) => FAQ],
+  ['/Contact', (params) => Contact],
   ['/Service', (params) => Service],
   ['/404', (params) => FourOhFour]
 ])
