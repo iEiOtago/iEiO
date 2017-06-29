@@ -7,7 +7,7 @@ export default ({state, dispatch}) => {
   const {route, routeHistory, services} = state
   scrollToTop()
   return (
-    <div>
+    <div className="wrapper">
       {menu(state, dispatch)}
       <div className="bannerPage">
         <h4>Independent Electrical Inspectors</h4>

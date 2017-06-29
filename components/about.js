@@ -14,14 +14,17 @@ export default ({state, dispatch}) => {
     <h4>{state.route.slice(1)}</h4>
     </div>
     <div className="blockHeader"></div>
-    <div className="contactContent">
+    <div className="aboutContent">
     <div className="col-md-6 blurb">
     <h5>iEi Otago is a small company that specializes in providing independent electrical inspections within the Otago region.</h5>
+    <img src="https://user-images.githubusercontent.com/20106637/27616634-32f56e4c-5c05-11e7-9311-54bb9469a64e.JPG" />
+    <h5>Allan Perry</h5>
     </div>
 
     <div className="col-md-6">
-
-      <img src="https://thumb7.shutterstock.com/display_pic_with_logo/3886523/389696407/stock-photo-morning-on-vineyard-at-lake-wanaka-otago-new-zealand-389696407.jpg" />
+    <p>Allan Perry is the main inspector; Allan has worked in the electrical industry for the majority of his career. Most recently, at Delta as the Superintendent for the Electrical Inspectors team in Dunedin and Central.</p>
+    <p>Allan has a wealth of knowledge and expertise from his time in the industry and is happy to guide others who need clarification about regulations, compliance and best practice.</p>
+    <p>Allan mentors electricians who are working towards their inspectors’ ticket.</p>
     </div>
     </div>
     {footer()}
