@@ -47,7 +47,7 @@ module.exports = () => {
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/3212969/579910117/stock-photo-gas-station-fuel-pump-579910117.jpg",
         blurb: "iEi Otago carries out explosive area inspections to AS/NZS:60079 standards for commercial businesses who have explosive environments  associated with their work activities.",
         content: [
-          {heading: "Did You Know?", content:"Many business activities involve the use of airborne particles and inflammatory materials. These may ignite if an electrical fault occurred within the work area. These areas listed here require explosive area inspection: Fuel stations, Paint spraying and tinting booths &amp; mixing rooms, Dust environments, LPG stations &amp; storage facilities, Dangerous Goods stores, Printing areas, Woodworking dust areas, Bakeries, Silos, Industrial applications, DG Store certification/ verification"},
+          {heading: "Did You Know?", content:"Many business activities involve the use of airborne particles and inflammatory materials. These may ignite if an electrical fault occurred within the work area. These areas listed here require explosive area inspection: Fuel stations, Paint spraying, tinting booths & mixing rooms, Dust environments, LPG stations & storage facilities, Dangerous Goods stores, Printing areas, Woodworking dust areas, Bakeries, Silos, Industrial applications, DG Store certification/ verification"},
           {heading: "Why is an Explosive Area Inspection Important?", content:"It is important to check that all the electrical equipment is correctly operating and rated for the environment it is operating within. Another important aspect of the inspection is there are no potential voltage differences between conductive materials that can cause a spark."},
           {heading: "Where do I get an Explosive Area Inspection Done?", content:"With an in depth knowledge of the standards required iEi Otago will visit site and carry out the inspection and discuss the findings, working with you towards compliance."},
         ],
@@ -59,7 +59,7 @@ module.exports = () => {
         ]
       },
       {
-        service:"Grid Connections",
+        service:"Connections",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
         content: [
           {heading: "New Building?", content:"If you are building a new house or require a new power supply, you must seek approval before connecting to the local power network. Network approval is intended to ensure the following: The connection is made to the correct supply point, There is legal access to the network, Network capacity is sufficient, Fusing is available."},
