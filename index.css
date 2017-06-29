@@ -162,7 +162,7 @@ a.logo {
 
 .allan {
   position: absolute;
-  bottom: -30px;
+  bottom: 80px;
   right: 15px;
   background: #16901d;
   color: #fff;
@@ -206,7 +206,7 @@ a.logo {
 
 .contactIcons div {
   position: absolute;
-  bottom: -30px;
+  bottom: 120px;
   right: 15px;
   background: #16901d;
   color: #fff;
@@ -354,6 +354,10 @@ a.logo {
   margin: 0 5px 0 15px;
 }*/
 
+.col-md-6 {
+  min-height: 70vh;
+}
+
 .footer {
   position: relative;
   background: #d5d7d6;
@@ -400,13 +404,16 @@ a.logo {
     font-size: 18px;
   }
   .allan {
-    bottom: 20px;
+    bottom: 30px;
   }
   .servicesContent {
     width: 80%;
   }
+  .servicesContent p {
+    font-size: 16px;
+  }
   .contactIcons div {
-    bottom: 20px;
+    bottom: 100px;
   }
   .contactContent {
     width: 80%;
