@@ -59,7 +59,7 @@ module.exports = () => {
         ]
       },
       {
-        service:"Grid Connections",
+        service:"Connections",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
         content: [
           {heading: "New Building?", content:"If you are building a new house or require a new power supply, you must seek approval before connecting to the local power network. Network approval is intended to ensure the following: The connection is made to the correct supply point, There is legal access to the network, Network capacity is sufficient, Fusing is available."},
