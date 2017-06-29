@@ -3,7 +3,7 @@ module.exports = () => {
     name: "iEi Otago",
     menu: [
       { page:"About", route:"/About" },
-      { page:"FAQ", route:"/FAQ" },
+      // { page:"FAQ", route:"/FAQ" },
       { page:"Contact", route:"/Contact" }
     ],
     selectedService:{},

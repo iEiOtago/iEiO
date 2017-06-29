@@ -91,7 +91,7 @@ h2, h3 {
 
 .menu li {
   float: left;
-  width: 25%;
+  width: 33.33%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -133,13 +133,27 @@ a.logo {
   left: 0;
 }
 .menu li:nth-child(2) {
-  left: 25%;
+  left: 33.33%;
 }
 .menu li:nth-child(3) {
-  left: 50%;
+  left: 66.66%;
 }
-.menu li:nth-child(4) {
+/*.menu li:nth-child(4) {
   left: 75%;
+}*/
+
+.aboutContent {
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 50px;
+}
+
+.aboutContent img {
+  width: 100%;
+}
+
+.aboutContent h4 {
+    color: #16901d;
 }
 
 .servicesContent {
@@ -263,7 +277,7 @@ a.logo {
 .form input:focus {
   border-bottom: 1px solid #2c3e50;
 }
-.form p:before {
+.form label:before {
   content: attr(type);
   display: block;
   margin: 20px 0 0;
@@ -335,9 +349,15 @@ a.logo {
   }
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 770px) {
   .serviceItem {
     width:33.33%;
+  }
+  .aboutContent {
+    width: 80%;
+  }
+  .aboutContent p {
+    font-size: 18px;
   }
   .servicesContent {
     width: 80%;
@@ -345,8 +365,11 @@ a.logo {
   .contactContent {
     width: 80%;
   }
+  .contactContent p {
+    font-size: 18px;
+  }
   .blurb h5 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .footer {
     height: 50px;
