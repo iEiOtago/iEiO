@@ -39,9 +39,6 @@ export default ({state, dispatch}) => {
     {footer()}
     </div>
   )
-  function changePage (route) {
-    dispatch({type: 'CHANGE_ROUTE', payload: route})
-  }
 }
 
 

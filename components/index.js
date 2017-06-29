@@ -25,7 +25,7 @@ export default ({state, dispatch}) => {
         {services.map((service, i)=> {
           return <div className="serviceItem" key={i} onClick={() => {
                   selectService(service)
-                  changePage("/Service")
+                  changePage(service.link)
                 }} >
                   <img src={service.image} />
                   <h3>{service.service}</h3>
