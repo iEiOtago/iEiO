@@ -18,7 +18,9 @@ export default ({state, dispatch}) => {
     <div className="col-md-6 blurb">
     <h5>iEi Otago is a small company that specializes in providing independent electrical inspections within the Otago region.</h5>
     <img src="https://user-images.githubusercontent.com/20106637/27616634-32f56e4c-5c05-11e7-9311-54bb9469a64e.JPG" />
-    <h5>Allan Perry</h5>
+    <div className="allan"><h3>Allan Perry</h3></div>
+    <div className="imgCont">
+    </div>
     </div>
 
     <div className="col-md-6">

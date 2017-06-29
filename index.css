@@ -156,6 +156,26 @@ a.logo {
     color: #16901d;
 }
 
+.imgCont {
+  margin-bottom: 50px;
+}
+
+.allan {
+  position: absolute;
+  bottom: -30px;
+  right: 15px;
+  background: #16901d;
+  color: #fff;
+  width: 250px;
+  padding: 16px 4px 16px 0;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+
+.allan h3 {
+  text-align: center;
+}
+
 .servicesContent {
   margin: 0 auto;
   margin-top: 5vh;
@@ -182,6 +202,26 @@ a.logo {
 
 .contactContent h4 {
     color: #16901d;
+}
+
+.contactIcons div {
+  position: absolute;
+  bottom: -30px;
+  right: 15px;
+  background: #16901d;
+  color: #fff;
+  width: 250px;
+  padding: 16px 4px 16px 0;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+}
+
+.contactIcons span {
+  margin: 0 5px 0 15px;
+}
+
+.contactIcons a {
+  color: #fff;
 }
 
 .serviceInfo {
@@ -238,12 +278,12 @@ a.logo {
   opacity: 0.7;
 }
 
-.form {
-  width: 340px;
-  height: 350px;
+/*.form {
+  width: 310px;
+  height: 500px;
   background: #fff;
   box-shadow: 0 0 30px -10px #000;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 80px;
   margin-left: 15px;
   padding: 20px 30px;
@@ -312,7 +352,7 @@ a.logo {
 }
 .form span {
   margin: 0 5px 0 15px;
-}
+}*/
 
 .footer {
   position: relative;
@@ -359,8 +399,14 @@ a.logo {
   .aboutContent p {
     font-size: 18px;
   }
+  .allan {
+    bottom: 20px;
+  }
   .servicesContent {
     width: 80%;
+  }
+  .contactIcons div {
+    bottom: 20px;
   }
   .contactContent {
     width: 80%;
