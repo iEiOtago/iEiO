@@ -161,7 +161,7 @@ a.logo {
 }
 
 .allan {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 80px;
   right: 15px;
   background: #16901d;
@@ -205,7 +205,7 @@ a.logo {
 }
 
 .contactIcons div {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 120px;
   right: 15px;
   background: #16901d;
@@ -275,7 +275,7 @@ a.logo {
   height: auto;
   width: 100%;
   vertical-align: middle;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /*.form {
@@ -354,10 +354,6 @@ a.logo {
   margin: 0 5px 0 15px;
 }*/
 
-.col-md-6 {
-  min-height: 70vh;
-}
-
 .footer {
   position: relative;
   background: #d5d7d6;
@@ -394,6 +390,9 @@ a.logo {
 }
 
 @media only screen and (min-width : 770px) {
+  .col-md-6 {
+    min-height: 70vh;
+  }
   .serviceItem {
     width:33.33%;
   }

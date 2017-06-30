@@ -17,7 +17,7 @@ export default ({state, dispatch}) => {
     <div className="contactContent">
     <div className="col-md-6 blurb">
     <h5>If you want book a job, email us and we will get back to you.</h5>
-    <img src="https://thumb9.shutterstock.com/display_pic_with_logo/112072/129038348/stock-photo-close-up-of-a-man-using-mobile-smart-phone-129038348.jpg" />
+    <img src="http://media.istockphoto.com/photos/girl-touching-a-screen-of-her-smarthone-blurred-background-horizontal-picture-id510584878" />
     <div className="contactIcons">
       <div>
       <span className="fa fa-phone"></span><a href="tel:+64204771262">020 477 1262</a>

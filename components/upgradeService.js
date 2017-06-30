@@ -13,7 +13,7 @@ export default ({state, dispatch}) => {
       {menu(state, dispatch)}
       <div className="bannerPage">
         {back(dispatch)}
-        <h4>Upgrades</h4>
+        <h4>Electrical Upgrades</h4>
       </div>
       <div className="blockHeader"></div>
       <div className="servicesContent">
