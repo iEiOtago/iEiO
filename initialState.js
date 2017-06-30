@@ -10,7 +10,7 @@ module.exports = () => {
     services: [
       {
         service:"Property Inspection",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/53073/53073,1196472714,1/stock-photo-exterior-of-a-typical-small-town-house-in-rural-new-zealand-7426006.jpg",
+        image: "http://media.istockphoto.com/photos/beautiful-house-picture-id452370443",
         link: "/Service",
         blurb: "There are many reasons why you could need an electrical test or inspection on your property or electrical items. It could be for insurance purposes, landlord's inspection, change of use, ownership or even just for your own peace of mind.",
         content: [
@@ -29,7 +29,7 @@ module.exports = () => {
       },
       {
         service:"Electrical Warrant of Fitness",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/648904/500827201/stock-photo-caravan-trailer-on-a-green-lawn-on-a-sunny-spring-day-500827201.jpg",
+        image: "http://media.istockphoto.com/photos/camper-at-bridge-picture-id140470944",
         link: "/Service",
         blurb: "iEi Otago can take the hassle out of your next Electrical Warrant of Fitness (EWOF) for your caravan, motorhome, mobile food van or boat. Our Inspectors can come to where the vehicle is located for your convenience.",
         content: [
@@ -46,7 +46,7 @@ module.exports = () => {
       },
       {
         service:"Explosive Area Inspection",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/3212969/579910117/stock-photo-gas-station-fuel-pump-579910117.jpg",
+        image: "http://media.istockphoto.com/photos/fuel-pumps-petrol-picture-id494059944",
         link: "/Service",
         blurb: "iEi Otago carries out explosive area inspections to AS/NZS:60079 standards for commercial businesses who have explosive environments  associated with their work activities.",
         content: [
@@ -63,23 +63,23 @@ module.exports = () => {
       },
       {
         service:"Connections",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
+        image: "http://media.istockphoto.com/photos/construction-site-preparation-picture-id619665644",
         link: "/ConnectionsSerivce"
       },
       {
         service:"Permanent Disconnections",
-        image: "https://thumb1.shutterstock.com/display_pic_with_logo/789982/162319469/stock-photo-hydraulic-crusher-excavator-machine-at-site-demolition-162319469.jpg",
+        image: "http://media.istockphoto.com/photos/hydraulic-crusher-excavator-backoe-machinery-working-on-site-picture-id531419555",
         link: "/DisconnectionSerivce"
       },
       {
         service:"Electrical Upgrades",
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/288118/127057241/stock-photo-senior-man-installing-a-bulb-in-a-freshly-renovated-appartment-127057241.jpg",
+        image: "http://media.istockphoto.com/photos/hand-of-electrician-with-multimeter-probe-at-electrical-switchgear-picture-id468173049",
         link: "/UpgradeService"
       }
     ],
     complexSerivces: {
       reconnection : {
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
+        image: "http://media.istockphoto.com/photos/construction-site-preparation-picture-id619665644",
         content: [
           {heading: "Power Disconnected for 6 months or more?", content:"Where power is not used over long periods of time, people often have their electricity supply disconnected. It is important to note that if the power has been disconnected for longer than six months, your installation must (by law) be inspected before reconnection can occur. This applies to all installations including temporary supplies for builders, pumps, cowsheds, houses and cribs, regardless of age."},
           {heading: "Not Sure How Long your Power has been Disconnected?", content:"Call your power provider with the address. They will be able to tell you exactly how long the electricity has been turned off and advise whether an inspection is required."}
@@ -92,7 +92,7 @@ module.exports = () => {
         ]
       },
       newConnection : {
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
+        image: "http://media.istockphoto.com/photos/construction-site-preparation-picture-id619665644",
         blurb: "",
         content: [
           {heading: "New Building?", content:"If you are building a new house or require a new power supply, you must seek approval before connecting to the local power network. Network approval is intended to ensure the following: The connection is made to the correct supply point, There is legal access to the network, Network capacity is sufficient, Fusing is available."}
@@ -106,7 +106,7 @@ module.exports = () => {
         ]
       },
       disconnection: {
-        image: "https://thumb1.shutterstock.com/display_pic_with_logo/789982/162319469/stock-photo-hydraulic-crusher-excavator-machine-at-site-demolition-162319469.jpg",
+        image: "http://media.istockphoto.com/photos/hydraulic-crusher-excavator-backoe-machinery-working-on-site-picture-id531419555",
         content: [
           {heading: "Demolishing or Removing a Building?", content:"For the safety of everyone, it is important to have the electricity service disconnected before you begin demolition or removal of a building."}
         ],
@@ -118,7 +118,7 @@ module.exports = () => {
         ]
       },
       upgrades: {
-        image: "https://thumb7.shutterstock.com/display_pic_with_logo/288118/127057241/stock-photo-senior-man-installing-a-bulb-in-a-freshly-renovated-appartment-127057241.jpg",
+        image: "http://media.istockphoto.com/photos/hand-of-electrician-with-multimeter-probe-at-electrical-switchgear-picture-id468173049",
         blurb: "As a property ages or is altered, it often becomes essential to replace or change certain elements of your electrical installation. New Zealand wiring regulations states that certain electrical work is high-risk when it is being carried out, and requires independent 3 rd party inspection.",
         stepsHeading1: "How do I arrange for a Renewal of mains inspection?",
         steps1: [
