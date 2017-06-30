@@ -62,7 +62,7 @@ module.exports = () => {
         ]
       },
       {
-        service:"Reconnections",
+        service:"Connections",
         image: "https://thumb7.shutterstock.com/display_pic_with_logo/537709/209541841/stock-photo-crane-and-building-construction-site-against-blue-sky-209541841.jpg",
         link: "/ConnectionsSerivce"
       },
